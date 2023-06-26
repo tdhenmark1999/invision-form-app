@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.wrapper {
+  max-width: 418px;
+  margin: 50px auto;
+}
+
+
+.txt-header {
+  color: #25262A;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 38px;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.txt-desc {
+  color: #25262A;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.custom-select fieldset legend {
+  display: none;
+}
+
+.custom-select .MuiSelect-select {
+  padding-top: 8px;
+  padding-bottom: 13px;
+}
+
+.txt-fields--modify input {
+  padding: 12px 14px;
+}
+
+.wrapper .form-label--input {
+  color: #25262A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.grid-container--fields {
+  padding-top: 10px !important;
+}
+
+.radio-btn-title span {
+  color: #25262A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.radio-btn-title span:nth-child(1) {
+  padding: 0px 9px;
+}
+
+.radio-container .radio-btn-desc {
+  color: #858585;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.wrapper .txt-required {
+  color: #25262A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.wrapper .btn-finish {
+  max-width: 138px;
+  width: 100%;
+  background: #01A3F8;
+}
+
+.wrapper .border-red {
+  border: 1px solid red;
+}
+
+.wrapper-success {
+  max-width: 418px;
+  margin: 60px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-success svg {
+  color: green;
+  font-size: 80px;
+}
+
+.wrapper-success h1 {
+  color: #25262A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.wrapper-success p {
+  color: #25262A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
